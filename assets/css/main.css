@@ -1,0 +1,33 @@
+/* COLORS */
+.bgd-primary{
+    background-color: #f72210;
+}
+.primary{
+    color: #f72210;
+}
+
+/* Border */
+.bd-0{
+    border-width: 0px;
+}
+.bd-1{
+    border-width: 1px;
+}
+/* Main */
+header{
+    back
+}
+
+[class*="section-"]{
+
+}
+
+.section-one{
+
+}
+
+.section-one .row .featured-story{
+    height: 200px;
+    background: #fdfdfd;
+    border: 1px solid #000;
+}
