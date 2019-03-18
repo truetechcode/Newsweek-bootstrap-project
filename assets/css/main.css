@@ -38,12 +38,14 @@ header{
 
 
 /*Section two*/
-.section-two h1 {
+.section-two h1, .section-three h1 {
 	text-align: center;
 	font-size: large;
+	border-bottom: 1px solid #8a8a8380;
+	padding-bottom: 10px;
 }
 
-.section-two h1 img {
+.section-two h1 img, .section-three h1 img {
 	height: 29px;
 	width: 28px;
 }
@@ -87,7 +89,7 @@ header{
 	margin-top: 5px;
 }
 
-.specialcon,.specialcon2 {
+.specialcon,.specialcon2,.speciacialcon3 {
 	position: relative;
 }
 
@@ -103,6 +105,90 @@ header{
 	position: absolute;
 	background-color: red;
 	color: white;
-	 font-weight: 700;
+	font-weight: 700;
     top:268px;
+}
+
+.specialcon h3, .specialcon3 h3 {
+	margin-top: 15px;
+	font-size: larger;
+	font-weight: 700;
+}
+
+.specialcon p {
+	font-size: smaller;
+}
+
+/*Section-three*/
+.section-three {
+	padding: 10px;
+}
+
+.specialcon3 div img {
+	width: 72px;
+	height: 52px;
+}
+
+.specialcon3 div{
+	position: absolute;
+    background-color: #dcd5d5;
+    color: red;
+    font-weight: 700;
+    top:215px;
+}
+
+.section-three .row {
+	margin-top: 20px;
+}
+
+.section-three-title {
+	font-size: x-large;
+	color: red;
+	margin-top: 10px;
+}
+
+.section-three h3 {
+	margin-top: 15px;
+	font-size: larger;
+	font-weight: 700;
+}
+
+hr {
+	border:  0.5px solid #8a8a8380;
+}
+
+.specialcon4 .row, .specialicon5 .row {
+	margin-top: 0px;
+}
+
+.specialcon4 img {
+	width: inherit;
+	height: 90px;
+}
+
+.specialcon4 h2 {
+	font-size: medium;
+	font-weight: 700;
+}
+
+.specialcon5 h2 {
+	font-size: medium;
+	font-weight: 700;
+	padding-left: 10px;
+}
+
+.subscribe ul {
+	list-style-type: square;
+}
+
+.subscribe h4 {
+	font-size: larger;
+}
+
+.subscribe-box {
+	background-color: #d9d9dea1;
+}
+
+.specialcon5 img {
+	height: 68px;
 }
