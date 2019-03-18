@@ -16,25 +16,26 @@
 </head>
 
 <body>
+    <header class="page-header">
     <div class="container">
-        <header class="header py-3 pl-3 pr-2 bgd-primary">
+        <div class="header py-3 pl-3 pr-2 bgd-primary">
                 <div class="row flex-nowrap justify-content-between align-items-center">
-                    <div class="col-4 pt-1">
-                        <h1 class="date">Fri, Mar 15, 2019</h1>
-                    </div>
-                    <div class="col-4 text-center">
-                        <a class="blog-header-logo text-dark" href="#">NEWSWEEK</a>
-                    </div>
-                    <div class="col-4 d-flex justify-content-end align-items-center">
-                        <a name="signin" id="signin" class="btn btn-danger bgd-primary rounded-0 bd-0" href="#" role="button">SIGN IN</a>
-                        <button type="button" class="btn btn-light rounded-0 primary">SUBSCRIBE
-                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                </div>
-        </header>
+                        <div class="col-4 pt-1">
+                            <h1 class="date">Fri, Mar 15, 2019</h1>
+                        </div>
+                        <div class="col-4 text-center">
+                            <a class="logo" href="#">Newsweek</a>
+                        </div>
+                        <div class="col-4 d-flex justify-content-end align-items-center">
+                            <a name="signin" id="signin" class="btn btn-danger bgd-primary rounded-0 bd-0" href="#" role="button">SIGN IN</a>
+                            <button type="button" class="btn btn-light rounded-0 primary">SUBSCRIBE
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>    
+        </div>
         <div class="nav-fix">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light pr-5 bgd-secondary">
                 <a class="navbar-brand hide" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +43,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="page-nav">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">U.S <span class="sr-only">(current)</span></a>
                         </li>
@@ -71,12 +72,14 @@
                             <a class="nav-link" href="#">Ndelibe</a>
                         </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <form class="form-inline">
+                        <input class="nav-form mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <i class="fas fa-search    "></i>
                     </form>
                 </div>
             </nav>
         </div>
+    </header>
         <section class="section-one">
             <div class="row">
                 <div class="col-8 m-a bd-1">

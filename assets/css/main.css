@@ -1,7 +1,26 @@
+body {
+
+    background-color: #f4f5f6;
+    color: #333;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: Arial,Helvetica,sans-serif;
+    overflow-x: hidden;
+
+}
+
+.hide{
+    visibility: collapse;
+}
 /* COLORS */
 .bgd-primary{
     background-color: #f72210;
 }
+
+.bgd-secondary{
+    background-color: #fff;
+}
+
 .primary{
     color: #f72210;
 }
@@ -13,9 +32,96 @@
 .bd-1{
     border-width: 1px;
 }
-/* Main */
+/* Header */
+
+.container-fluid, .container {
+    max-width: 1310px;
+}
 header{
-    back
+    color: #fff;
+}
+
+.page-header .header .date {
+    /* display: none; */
+    font: 16px/34px "Roboto Condensed",sans-serif;
+    /* color: #fff; */
+}
+
+.page-header .header .logo{
+    /* display: none; */
+    font: 66px/34px "Times New Roman",serif;
+    font-weight: bolder;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Navbar */
+.page-header .navbar::before {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 66px;
+    background-color: #f72210;
+    border-left: 12px solid #fff;
+    border-top: 13px solid #f72210;
+
+}
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    z-index: 1;
+    color: #ddd;
+}
+ul.page-nav {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Roboto Condensed",sans-serif;
+    display: -webkit-flex;
+    display: flex;
+    margin-bottom: 0px;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+}
+ul.page-nav li:first-child {
+    border-left-width: 0;
+}
+.page-header ul.page-nav li.nav-item {
+    border-left:1px solid #d9d9d9;
+}
+ul.page-nav a{
+    color: #000;
+    text-decoration: none;
+}
+
+form{
+    width: 100px;
+}
+form input.nav-form{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 0px solid #ced4da;
+}
+
+form i.fas {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    color: black;
+    font-size: 1rem;
 }
 
 [class*="section-"]{
