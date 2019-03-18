@@ -11,7 +11,9 @@ body {
 
 .hide{
     visibility: collapse;
+	overflow-x: hidden;
 }
+
 /* COLORS */
 .bgd-primary{
     background-color: #f72210;
@@ -57,7 +59,6 @@ header{
 
 /* Navbar */
 .page-header .navbar::before {
-
     position: absolute;
     top: 0;
     right: 0;
@@ -67,19 +68,18 @@ header{
     background-color: #f72210;
     border-left: 12px solid #fff;
     border-top: 13px solid #f72210;
-
 }
 
 .navbar {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    /* padding-top: 0px;
+    padding-bottom: 0px; */
     border-bottom-width: 2px;
     border-bottom-style: solid;
     z-index: 1;
     color: #ddd;
 }
 ul.page-nav {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 700;
     font-family: "Roboto Condensed",sans-serif;
     display: -webkit-flex;
@@ -89,7 +89,7 @@ ul.page-nav {
     justify-content: center;
     width: 100%;
 }
-ul.page-nav li:first-child {
+.page-header ul.page-nav li.nav-item:first-child {
     border-left-width: 0;
 }
 .page-header ul.page-nav li.nav-item {
@@ -98,6 +98,7 @@ ul.page-nav li:first-child {
 ul.page-nav a{
     color: #000;
     text-decoration: none;
+    padding: .5rem 1.15rem;
 }
 
 form{
@@ -107,7 +108,7 @@ form input.nav-form{
     display: block;
     width: 100%;
     height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
+    /* padding: .375rem .75rem; */
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -118,12 +119,12 @@ form input.nav-form{
 
 form i.fas {
     position: absolute;
-    top: 20px;
+    top: 26px;
     right: 60px;
     color: black;
     font-size: 1rem;
+    /* font-weight: 100; */
 }
-
 [class*="section-"]{
 
 }
@@ -136,4 +137,75 @@ form i.fas {
     height: 200px;
     background: #fdfdfd;
     border: 1px solid #000;
+}
+
+
+/*Section two*/
+.section-two h1 {
+	text-align: center;
+	font-size: large;
+}
+
+.section-two h1 img {
+	height: 29px;
+	width: 28px;
+}
+
+.section-two {
+	padding: 10px;
+}
+
+.section-two-container img {
+	width: 280px;
+	height: 279px;
+}
+
+.section-two-container {
+	padding: 20px;
+}
+
+.section-two-container div {
+	margin-top: 7px;
+}
+
+.section-two-container span {
+	background-color: red;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.section-two-container a {
+	color: red;
+    font-size: large;
+    padding-left: 7px;
+	font-weight: 700;
+
+}
+
+.section-two-container h2 {
+	font-size: large;
+	font-weight: 700;
+	margin-top: 5px;
+}
+
+.specialcon,.specialcon2 {
+	position: relative;
+}
+
+.specialcon div  {
+	position: absolute;
+    background-color: #dcd5d5;
+    color: red;
+    font-weight: 700;
+    top:268px;
+}
+
+.specialcon2 div {
+	position: absolute;
+	background-color: red;
+	color: white;
+	 font-weight: 700;
+    top:268px;
 }
