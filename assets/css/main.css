@@ -1,3 +1,7 @@
+body {
+	overflow-x: hidden;
+}
+
 /* COLORS */
 .bgd-primary{
     background-color: #f72210;
@@ -30,4 +34,75 @@ header{
     height: 200px;
     background: #fdfdfd;
     border: 1px solid #000;
+}
+
+
+/*Section two*/
+.section-two h1 {
+	text-align: center;
+	font-size: large;
+}
+
+.section-two h1 img {
+	height: 29px;
+	width: 28px;
+}
+
+.section-two {
+	padding: 10px;
+}
+
+.section-two-container img {
+	width: 280px;
+	height: 279px;
+}
+
+.section-two-container {
+	padding: 20px;
+}
+
+.section-two-container div {
+	margin-top: 7px;
+}
+
+.section-two-container span {
+	background-color: red;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.section-two-container a {
+	color: red;
+    font-size: large;
+    padding-left: 7px;
+	font-weight: 700;
+
+}
+
+.section-two-container h2 {
+	font-size: large;
+	font-weight: 700;
+	margin-top: 5px;
+}
+
+.specialcon,.specialcon2 {
+	position: relative;
+}
+
+.specialcon div  {
+	position: absolute;
+    background-color: #dcd5d5;
+    color: red;
+    font-weight: 700;
+    top:268px;
+}
+
+.specialcon2 div {
+	position: absolute;
+	background-color: red;
+	color: white;
+	 font-weight: 700;
+    top:268px;
 }
