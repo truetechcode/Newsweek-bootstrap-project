@@ -359,6 +359,35 @@ footer {
 }
 
 footer img {
-	width: inherit;
+	width: 280px;
 	height: 40px;
+}
+
+.footer-social {
+	font-size: x-large;
+}
+
+.linkbox {
+	padding-left: 30px;
+	padding-top: 15px;
+}
+
+.linkbox ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+.linkbox li {
+	margin: 7px;
+
+}
+.linkbox a{
+color: #565252;
+font-size: medium;
+box-sizing:border-box;
+	border-right: 1px solid #565252;
+	padding-right: 7px;
+}
+
+.linklst a{
+	border-right: none;
 }
