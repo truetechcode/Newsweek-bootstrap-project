@@ -202,11 +202,12 @@ form i.fas {
 
 .section-two {
 	padding: 15px;
+	margin-top: 20px;
 }
 
 .section-two-container img {
-	width: 280px;
-	height: 279px;
+	width: inherit;
+	height: 275px;
 }
 
 .section-two-container {
@@ -272,20 +273,32 @@ form i.fas {
 /*Section-three*/
 .section-three {
 	padding: 15px;
+	margin-top: 20px;
 }
 
-.specialcon3 div img {
+.specialcon3, .specialcon7 {
+	margin-top: 12px;
+}
+
+.specialcon3 div img,.specialcon7 div img {
 	width: 72px;
 	height: 52px;
 }
 
-.specialcon3 div{
+.specialcon3 img, .specialcon7 img, .specialcon8 img {
+	width: 100%;
+}
+
+
+.specialcon3 div, .specialcon7 div{
 	position: absolute;
     background-color: #dcd5d5;
     color: red;
     font-weight: 700;
-    top:215px;
+    bottom: 59px;
+  	left: 15px;
 }
+
 
 .section-three .row {
 	margin-top: 20px;
@@ -352,10 +365,15 @@ hr {
 	padding: 10px;
 }
 
+.subscribe-img img{
+	width: inherit;
+}
+
 /*Footer*/
 
 footer {
 	padding: 15px;
+	margin-top: 20px;
 }
 
 footer img {
@@ -390,4 +408,33 @@ box-sizing:border-box;
 
 .linklst a{
 	border-right: none;
+}
+
+@media only screen and (max-width: 990px) {
+	.section-two-container img {
+		height: 209px;
+	}
+
+	.specialcon2 div, .specialcon div {
+		top: 200px;
+	}
+}
+
+@media only screen and (max-width: 776px) {
+	.section-two-container img {
+		height:  auto;
+	}
+	.specialcon2 div, .specialcon div {
+		top: 400px;
+	}
+	.specialcon7 div{  
+    bottom: 40px; }
+ 
+}
+
+
+@media only screen and (max-width: 662px) {
+	.specialcon2 div, .specialcon div {
+		top: 268px;
+	}
 }
