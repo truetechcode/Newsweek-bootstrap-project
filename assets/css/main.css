@@ -129,8 +129,9 @@ form i.fas {
 
 }
 
-.section-one{
-    height: auto;
+.section-one .row{
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .section-one .row .row [class*="col-"], .section-one .row [class*="col-"]{
