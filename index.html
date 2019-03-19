@@ -9,40 +9,43 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-            crossorigin="anonymous">
+        crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-            crossorigin="anonymous">
+        crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Martel:900|Roboto+Condensed|Roboto+Slab:700|Sumana:700" rel="stylesheet">
         <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css">
     </head>
 
     <body>
-        <div class="container">
-            <header class="header py-3 pl-3 pr-2 bgd-primary">
+        <header class="page-header">
+            <div class="container">
+                <div class="header py-3 pl-3 pr-2 bgd-primary">
                     <div class="row flex-nowrap justify-content-between align-items-center">
                         <div class="col-4 pt-1">
                             <h1 class="date">Fri, Mar 15, 2019</h1>
                         </div>
                         <div class="col-4 text-center">
-                            <a class="blog-header-logo text-dark" href="#">NEWSWEEK</a>
+                            <a class="logo" href="#">Newsweek</a>
                         </div>
                         <div class="col-4 d-flex justify-content-end align-items-center">
-                            <a name="signin" id="signin" class="btn btn-danger bgd-primary rounded-0 bd-0" href="#" role="button">SIGN IN</a>
+                            <a name="signin" id="signin" class="btn btn-danger bgd-primary rounded-0 bd-0" href="#" role="button">SIGN
+                            IN</a>
                             <button type="button" class="btn btn-light rounded-0 primary">SUBSCRIBE
                                 <i class="fa fa-chevron-right" aria-hidden="true"></i>
                             </button>
                         </div>
                     </div>
-            </header>
-            <div class="nav-fix">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand hide" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                </div>
+                <div class="nav-fix">
+                    <nav class="navbar navbar-expand-lg navbar-light pr-5 bgd-secondary">
+                        <a class="navbar-brand hide" href="#">Navbar</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
+                        <ul class="page-nav">
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">U.S <span class="sr-only">(current)</span></a>
                             </li>
@@ -53,7 +56,7 @@
                                 <a class="nav-link" href="#">Business</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Tech &#333; Science</a>
+                                <a class="nav-link" href="#">Tech &amp; Science</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Culture</a>
@@ -71,251 +74,283 @@
                                 <a class="nav-link" href="#">Ndelibe</a>
                             </li>
                         </ul>
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <form class="form-inline">
+                            <input class="nav-form mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <i class="fas fa-search    "></i>
                         </form>
                     </div>
                 </nav>
             </div>
-            <section class="section-one">
+        </header>
+        <section class="section-one">
+            <div class="container">
                 <div class="row">
-                    <div class="col-8 m-a bd-1">
+                    <div class="col-lg-9 col-md-12 col-sm-12">
                         <div class="row">
-                            <div class="col-4 m-a featured-story">
+                            <div class="col-lg-5 col-md-5 col-sm-12 p-3 featured-story">
                                 <h1 class="news">FEATURED STORY</h1>
+                                <img class="img-fluid" src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/15/christchurch-shooting-mosque-new-zealand-gunman.jpg">
+                                <div class="caption ">
+                                    <h3 class="caption-head pt-2">
+                                        It Takes 'Love' to Rush a Gunman
+                                    </h3>
+                                    <p class="caption-body py-1">
+                                        "It also takes love, and it takes a knowing what you’re fighting for rather than
+                                        fighting against."
+                                    </p>
+                                    <div class="caption-foot my-2 py-1">
+                                        <span>Senator Says Muslims Not 'Blameless' After NZ Shooting</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-8 m-a top-story">
+                            <div class="col-lg-7 col-md-7  col-sm-12 p-3 top-story">
                                 <h1 class="news">TOP STORY</h1>
+                                <img class="img-fluid" src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md/public/2019/03/18/mike-pence-republican-critics.jpg">
+                                <div class="caption ">
+                                    <h3 class="caption-head pt-2">
+                                        It Takes 'Love' to Rush a Gunman
+                                    </h3>
+                                    <p class="caption-body py-1">
+                                        "It also takes love, and it takes a knowing what you’re fighting for rather than
+                                        fighting against."
+                                    </p>
+                                    <div class="caption-foot my-2 py-1">
+                                        <span>Senator Says Muslims Not 'Blameless' After NZ Shooting</span>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 m-a opinion">
-                        <h1 class="news">OPINION</h1>
-                    </div>                
+                    <div class="col-lg-3 col-md-12  col-sm-12 p-3 opinion">
+                        <div class="col-lg-12 col-md-6 col-sm-12">
+                            <h1 class="news">OPINION</h1>
+                            <div class="clearfix border-bottom pb-2 mb-2">
+                                <img class="img float-left" src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/square_thumbnail/public/23544/profile_image/robert_reich.png">
+                                <div class="caption pl-3 float-left">
+                                    <span class="pb-2">
+                                        The Myth of Meritocracy
+                                    </span>
+                                    <span class="d-block">By Robert Reich</span>
+                                </div>    
+                            </div>
+                            <div class="clearfix border-bottom pb-2 mb-2">
+                                <img class="img float-left" src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/square_thumbnail/public/23544/profile_image/robert_reich.png">
+                                <div class="caption pl-3 float-left">
+                                    <span class="pb-2">
+                                        The Myth of Meritocracy
+                                    </span>
+                                    <span class="d-block">By Robert Reich</span>
+                                </div>    
+                            </div>
+                            <div class="clearfix border-bottom pb-2 mb-2">
+                                <img class="img float-left" src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/square_thumbnail/public/23544/profile_image/robert_reich.png">
+                                <div class="caption pl-3 float-left">
+                                    <span class="pb-2">
+                                        The Myth of Meritocracy
+                                    </span>
+                                    <span class="d-block">By Robert Reich</span>
+                                </div>    
+                            </div>
+                            <div class="clearfix border-bottom pb-2 mb-2">
+                                <img class="img float-left" src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/square_thumbnail/public/23544/profile_image/robert_reich.png">
+                                <div class="caption pl-3 float-left">
+                                    <span class="pb-2">
+                                        The Myth of Meritocracy
+                                    </span>
+                                    <span class="d-block">By Robert Reich</span>
+                                </div>    
+                            </div>        
+                        </div>
+                    </div>
                 </div>
-            </section>
-            
-        </div>
+            </div>
+        </section>
+
         <section class="section-two">
-                <h1>
-                    <img src="assets/images/newsweek.png">
-                    IN THE MAGAZINE
-                </h1>
-                <div class="row">
-                    <div class="col-xl-3 section-two-container specialcon">
-                         <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/embed-xs/public/2019/03/11/20190322cover1800x2400.jpg">
-                         <div>
-                             MARCH 22 ISSUE
-                         </div>
-                         <button class="btn btn-light col-xl-12"><b>SEE ALL FEATURES > </b></button>
-
-
-                    </div> 
-                    <div class="col-xl-3 section-two-container">
-                        <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/03/04/fewhiteidentity01619475022.jpg">
-                        <div>
-                            <span>COVER</span><a href="#">U.S</a>
-                            <h2>Make America White Again?</h2>
-                        </div>
-                        
-                    </div>
-                    <div class="col-xl-3 section-two-container">
-                        <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/02/26/doug-jones.jpg">
-                         <div>
-                            <span>COVER</span><a href="#">U.S</a>
-                            <h2>Make America White Again?</h2>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 section-two-container">
-                        <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/02/21/feblockchain-impact-awardssimply-vital-health1062184620.jpg">
-                         <div>
-                            <span>COVER</span><a href="#">U.S</a>
-                            <h2>Make America White Again?</h2>
-                        </div>
-                    </div>
+            <div class="col-xl-3 section-two-container">
+                <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/03/11/fearmstrong01.jpg">
+                <div>
+                    <span>COVER</span><a href="#">U.S</a>
+                    <h2>Make America White Again?</h2>
                 </div>
-                <div class="row">
-                    <div class="col-xl-3 section-two-container">
-                         <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/02/21/feblockchain-impact-awardsprescrypto645424997banner.jpg">
-                         <div>
-                            <span>COVER</span><a href="#">U.S</a>
-                            <h2>Make America White Again?</h2>
-                        </div>
-                    </div> 
-                    <div class="col-xl-3 section-two-container">
-                        <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/03/11/fearmstrong01.jpg">
-                        <div>
-                            <span>COVER</span><a href="#">U.S</a>
-                            <h2>Make America White Again?</h2>
-                        </div>                        
-                    </div>
-                    <div class="col-xl-3 section-two-container">
-                        <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/03/11/culgarden10.jpg">
-                         <div>
-                            <span>COVER</span><a href="#">U.S</a>
-                            <h2>Make America White Again?</h2>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 section-two-container specialcon2">
-                        <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/02/21/feblockchain-impact-awardssimply-vital-health1062184620.jpg">
-                          <div>
-                             MARCH 22 ISSUE
-                         </div>
-                         <button class="btn btn-light col-xl-12"><b>DOUBLE TROUBLE </b></button>
-                    </div>
+            </div>
+            <div class="col-xl-3 section-two-container">
+                <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/03/11/culgarden10.jpg">
+                <div>
+                    <span>COVER</span><a href="#">U.S</a>
+                    <h2>Make America White Again?</h2>
                 </div>
-                <h1>
-                    <img src="assets/images/newsweek.png">
-                    EDITORS PICK
-                </h1>
-                <div class="row">
-                    <div class="col-xl-3 section-two-container specialcon ">
-                         <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/15/christchurch-shooting-mosque-new-zealand-gunman.jpg">
-                         <div>
-                             MARCH 22 ISSUE
-                         </div>
-                         <h3>
-                             It Takes 'Love' to Rush a Gunman
-                         </h3>
-                         <p>
-                            "It also takes love, and it takes a knowing what you’re fighting for rather than fighting against." 
-                         </p>
-                    </div> 
-                    <div class="col-xl-3 section-two-container specialcon">
-                        <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/15/gettyimages-57406413.jpg">
-                        <div>
-                             MARCH 22 ISSUE
-                         </div>   
-                         <h3>Prison Workers Quit After Inmate Relationships: Report</h3>
-                         <p>One individual was accused of having sex with an inmate.</p>                   
-                    </div>
-                    <div class="col-xl-3 section-two-container specialcon">
-                        <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/13/gettyimages-1130090301_0.jpg">
-                         <div>
-                             MARCH 22 ISSUE
-                         </div>
-                         <h3>Venezuela Crisis Explained: Safety, Economy, Politics</h3>
-                         <p>Venezuela, once boosted by Hugo Chávez, suffers one of the world's worst economic crises amid a political row between President Nicolás Maduro and opposition leader Juan Guaidó.</p>
-                    </div>
-                    <div class="col-xl-3 section-two-container specialcon">
-                        <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/13/gettyimages-1130090301_0.jpg">
-                          <div>
-                             MARCH 22 ISSUE
-                         </div>
-                         <h3>New Bill Would Shield Science From Special Interests</h3>
-                        <p>
-                            Democrats in the Senate and House introduced legislation to protect scientists from political bias and special interests, particularly amid Trump administration attacks on the research community.
-                        </p>
-                    </div>
+            </div>
+            <div class="col-xl-3 section-two-container specialcon2">
+                <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/02/21/feblockchain-impact-awardssimply-vital-health1062184620.jpg">
+                <div>
+                    MARCH 22 ISSUE
                 </div>
-                <div class="row">
-                    <div class="col-xl-3 section-two-container specialcon ">
-                         <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/02/21/feblockchain-impact-awardsprescrypto645424997banner.jpg">
-                         <div>
-                             MARCH 22 ISSUE
-                         </div>
-                         <h3>
-                             It Takes 'Love' to Rush a Gunman
-                         </h3>
-                         <p>
-                            "It also takes love, and it takes a knowing what you’re fighting for rather than fighting against." 
-                         </p>
-                    </div> 
-                    <div class="col-xl-3 section-two-container specialcon">
-                        <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/03/11/fearmstrong01.jpg">
-                        <div>
-                             MARCH 22 ISSUE
-                         </div>   
-                         <h3>Prison Workers Quit After Inmate Relationships: Report</h3>
-                         <p>One individual was accused of having sex with an inmate.</p>                   
+                <button class="btn btn-light col-xl-12"><b>DOUBLE TROUBLE </b></button>
+            </div>
+            <h1>
+                <img src="assets/images/newsweek.png">
+                EDITORS PICK
+            </h1>
+            <div class="row">
+                <div class="col-xl-3 section-two-container specialcon ">
+                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/15/christchurch-shooting-mosque-new-zealand-gunman.jpg">
+                    <div>
+                        MARCH 22 ISSUE
                     </div>
-                    <div class="col-xl-3 section-two-container specialcon">
-                        <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/03/11/culgarden10.jpg">
-                         <div>
-                             MARCH 22 ISSUE
-                         </div>
-                         <h3>Venezuela Crisis Explained: Safety, Economy, Politics</h3>
-                         <p>Venezuela, once boosted by Hugo Chávez, suffers one of the world's worst economic crises amid a political row between President Nicolás Maduro and opposition leader Juan Guaidó.</p>
+                    <h3>
+                        It Takes 'Love' to Rush a Gunman
+                    </h3>
+                    <p>
+                        "It also takes love, and it takes a knowing what you’re fighting for rather than fighting against."
+                    </p>
+                </div>
+                <div class="col-xl-3 section-two-container specialcon">
+                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/15/gettyimages-57406413.jpg">
+                    <div>
+                        MARCH 22 ISSUE
                     </div>
-                    <div class="col-xl-3 section-two-container specialcon">
-                        <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/02/21/feblockchain-impact-awardssimply-vital-health1062184620.jpg">
-                          <div>
-                             MARCH 22 ISSUE
-                         </div>
-                         <h3>New Bill Would Shield Science From Special Interests</h3>
-                        <p>
-                            Democrats in the Senate and House introduced legislation to protect scientists from political bias and special interests, particularly amid Trump administration attacks on the research community.
-                        </p>
+                    <h3>Prison Workers Quit After Inmate Relationships: Report</h3>
+                    <p>One individual was accused of having sex with an inmate.</p>
+                </div>
+                <div class="col-xl-3 section-two-container specialcon">
+                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/13/gettyimages-1130090301_0.jpg">
+                    <div>
+                        MARCH 22 ISSUE
                     </div>
-                </div>                               
-         </section>
+                    <h3>Venezuela Crisis Explained: Safety, Economy, Politics</h3>
+                    <p>Venezuela, once boosted by Hugo Chávez, suffers one of the world's worst economic crises amid a
+                    political row between President Nicolás Maduro and opposition leader Juan Guaidó.</p>
+                </div>
+                <div class="col-xl-3 section-two-container specialcon">
+                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/13/gettyimages-1130090301_0.jpg">
+                    <div>
+                        MARCH 22 ISSUE
+                    </div>
+                    <h3>New Bill Would Shield Science From Special Interests</h3>
+                    <p>
+                        Democrats in the Senate and House introduced legislation to protect scientists from political bias
+                        and special interests, particularly amid Trump administration attacks on the research community.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 section-two-container specialcon ">
+                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/02/21/feblockchain-impact-awardsprescrypto645424997banner.jpg">
+                    <div>
+                        MARCH 22 ISSUE
+                    </div>
+                    <h3>
+                        It Takes 'Love' to Rush a Gunman
+                    </h3>
+                    <p>
+                        "It also takes love, and it takes a knowing what you’re fighting for rather than fighting against."
+                    </p>
+                </div>
+                <div class="col-xl-3 section-two-container specialcon">
+                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/03/11/fearmstrong01.jpg">
+                    <div>
+                        MARCH 22 ISSUE
+                    </div>
+                    <h3>Prison Workers Quit After Inmate Relationships: Report</h3>
+                    <p>One individual was accused of having sex with an inmate.</p>
+                </div>
+                <div class="col-xl-3 section-two-container specialcon">
+                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/03/11/culgarden10.jpg">
+                    <div>
+                        MARCH 22 ISSUE
+                    </div>
+                    <h3>Venezuela Crisis Explained: Safety, Economy, Politics</h3>
+                    <p>Venezuela, once boosted by Hugo Chávez, suffers one of the world's worst economic crises amid a
+                    political row between President Nicolás Maduro and opposition leader Juan Guaidó.</p>
+                </div>
+                <div class="col-xl-3 section-two-container specialcon">
+                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/02/21/feblockchain-impact-awardssimply-vital-health1062184620.jpg">
+                    <div>
+                        MARCH 22 ISSUE
+                    </div>
+                    <h3>New Bill Would Shield Science From Special Interests</h3>
+                    <p>
+                        Democrats in the Senate and House introduced legislation to protect scientists from political bias
+                        and special interests, particularly amid Trump administration attacks on the research community.
+                    </p>
+                </div>
+            </div>
+        </section>
         <section class="section-three">
-             <h1>
-                    <img src="assets/images/newsweek.png">
-                    FEATURED SLIDESHOWS
-                </h1>
+            <h1>
+                <img src="assets/images/newsweek.png">
+                FEATURED SLIDESHOWS
+            </h1>
 
             <div class="row">
                 <div class="col-xl-4 specialcon3">
-                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/15/image-00_0.jpg"> 
+                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/15/image-00_0.jpg">
                     <div>
-                        <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png" alt="featured-slideshow-image">
+                        <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png"
+                        alt="featured-slideshow-image">
                     </div>
-                    <h3>Rob Lowe’s 55th Birthday: His 15 Best Movies and TV Shows Ranked</h3>  
+                    <h3>Rob Lowe’s 55th Birthday: His 15 Best Movies and TV Shows Ranked</h3>
                 </div>
                 <div class="col-xl-4 specialcon3">
                     <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/15/image-00.jpg">
                     <div>
-                        <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png" alt="featured-slideshow-image">
+                        <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png"
+                        alt="featured-slideshow-image">
                     </div>
-                    <h3>Kurt Russell’s Birthday: His 25 Best Movies Ranked</h3>  
+                    <h3>Kurt Russell’s Birthday: His 25 Best Movies Ranked</h3>
                 </div>
                 <div class="col-xl-4 specialcon3">
                     <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/14/image-00_0.jpg">
                     <div>
-                        <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png" alt="featured-slideshow-image">
+                        <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png"
+                        alt="featured-slideshow-image">
                     </div>
-                    <h3>David Cronenberg’s Birthday: His 15 Best Movies Ranked from Worst to Best</h3>  
+                    <h3>David Cronenberg’s Birthday: His 15 Best Movies Ranked from Worst to Best</h3>
                 </div>
 
-            </div> 
+            </div>
             <div class="row">
                 <div class="col-xl-4 specialcon3">
-                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/15/netflix.jpg"> 
+                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/15/netflix.jpg">
                     <div>
-                        <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png" alt="featured-slideshow-image">
+                        <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png"
+                        alt="featured-slideshow-image">
                     </div>
-                    <h3>Rob Lowe’s 55th Birthday: His 15 Best Movies and TV Shows Ranked</h3>  
+                    <h3>Rob Lowe’s 55th Birthday: His 15 Best Movies and TV Shows Ranked</h3>
                 </div>
                 <div class="col-xl-4 specialcon3">
                     <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/12/low-stress-vacations.jpg">
                     <div>
-                        <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png" alt="featured-slideshow-image">
+                        <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png"
+                        alt="featured-slideshow-image">
                     </div>
-                    <h3>Kurt Russell’s Birthday: His 25 Best Movies Ranked</h3>  
+                    <h3>Kurt Russell’s Birthday: His 25 Best Movies Ranked</h3>
                 </div>
                 <div class="col-xl-4 specialcon3">
                     <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/12/dental-care-tools-cover.jpg">
                     <div>
-                        <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png" alt="featured-slideshow-image">
+                        <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png"
+                        alt="featured-slideshow-image">
                     </div>
-                    <h3>David Cronenberg’s Birthday: His 15 Best Movies Ranked from Worst to Best</h3>  
+                    <h3>David Cronenberg’s Birthday: His 15 Best Movies Ranked from Worst to Best</h3>
                 </div>
 
-            </div> 
+            </div>
             <hr>
-            <h2 class="section-three-title"> U.S.</h2> 
+            <h2 class="section-three-title"> U.S.</h2>
             <div class="row">
                 <div class="col-xl-4">
-                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/17/screen-shot-2019-03-18-9.png"> 
-                    <h3>Fox News Host Urges Viewers To Stock Up On AR-15s</h3>  
+                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/17/screen-shot-2019-03-18-9.png">
+                    <h3>Fox News Host Urges Viewers To Stock Up On AR-15s</h3>
                 </div>
                 <div class="col-xl-4">
-                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/17/gettyimages-1136039171.jpg"> 
-                    <h3>Trump Blasts Shephard Smith and Other Fox News Anchors</h3>  
+                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/17/gettyimages-1136039171.jpg">
+                    <h3>Trump Blasts Shephard Smith and Other Fox News Anchors</h3>
                 </div>
                 <div class="col-xl-4 specialcon4">
-                    <div class="row"> 
+                    <div class="row">
                         <div class="col-xl-4">
                             <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/17/gettyimages-1130719202.jpg">
                         </div>
@@ -323,10 +358,10 @@
                             <h2>
                                 Buttigieg: Time for Green New Deal 'Was Yesterday'
                             </h2>
-                        </div>                       
+                        </div>
                     </div>
                     <hr>
-                    <div class="row"> 
+                    <div class="row">
                         <div class="col-xl-4">
                             <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/17/gettyimages-1130814279.jpg">
                         </div>
@@ -334,45 +369,45 @@
                             <h2>
                                 Only 'Gunman and the Devil' Behind New Zealand Attack
                             </h2>
-                        </div>                       
+                        </div>
                     </div>
                     <hr>
-                    <div class="row"> 
+                    <div class="row">
                         <div class="col-xl-4">
                             <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/13/meghan-mccain-legacy-admissions.png">
                         </div>
                         <div class="col-xl-8">
                             <h2>
-                               Meghan McCain to Trump: My Dad Lives in Your Head
+                                Meghan McCain to Trump: My Dad Lives in Your Head
                             </h2>
-                        </div>                       
+                        </div>
                     </div>
                 </div>
             </div>
             <hr>
-             <h2 class="section-three-title"> WORLD</h2> 
+            <h2 class="section-three-title"> WORLD</h2>
             <div class="row">
                 <div class="col-xl-4">
-                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/17/gettyimages-1136226158.jpg"> 
-                    <h3>Man Arrested for Sharing New Zealand Mosque Attack Clip</h3>  
+                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/17/gettyimages-1136226158.jpg">
+                    <h3>Man Arrested for Sharing New Zealand Mosque Attack Clip</h3>
                 </div>
                 <div class="col-xl-4">
-                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/17/gettyimages-1129055119.jpg"> 
-                    <h3>Can Stop-and-Frisk Bring Down London Knife Crime?</h3>  
+                    <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/17/gettyimages-1129055119.jpg">
+                    <h3>Can Stop-and-Frisk Bring Down London Knife Crime?</h3>
                 </div>
                 <div class="col-xl-4 specialcon4">
-                    <div class="row"> 
+                    <div class="row">
                         <div class="col-xl-4">
                             <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/16/anning-egg.jpg">
                         </div>
                         <div class="col-xl-8">
                             <h2>
-                               Senator Who Hit Egg Boy Should 'Feel Full Force of Law'
+                                Senator Who Hit Egg Boy Should 'Feel Full Force of Law'
                             </h2>
-                        </div>                       
+                        </div>
                     </div>
                     <hr>
-                    <div class="row"> 
+                    <div class="row">
                         <div class="col-xl-4">
                             <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/17/maori-new-zealand.jpg">
                         </div>
@@ -380,18 +415,18 @@
                             <h2>
                                 Maori Celebrate NZ Terror Attack Victims with Haka
                             </h2>
-                        </div>                       
+                        </div>
                     </div>
                     <hr>
-                    <div class="row"> 
+                    <div class="row">
                         <div class="col-xl-4">
                             <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/13/meghan-mccain-legacy-admissions.png">
                         </div>
                         <div class="col-xl-8">
                             <h2>
-                               Meghan McCain to Trump: My Dad Lives in Your Head
+                                Meghan McCain to Trump: My Dad Lives in Your Head
                             </h2>
-                        </div>                       
+                        </div>
                     </div>
                 </div>
             </div>
@@ -427,83 +462,56 @@
                                 </ul>
                             </div>
                         </div>
-                            <button class="btn btn-danger col-xl-3 offset-xl-5">SUBSCRIBE</button>
+                        <button class="btn btn-danger col-xl-4 offset-xl-4">SUBSCRIBE</button></div>
+
                     </div>
-                </div>
-                <div class="col-xl-4 offset-xl-4 specialcon5">
-                    <h2> MOST READ</h2>
-                    <div class="row"> 
+                    <div class="col-xl-4 offset-xl-4 specialcon5">
+                        <h2> MOST READ</h2>
+                        <div class="row">
                             <div class="col-xl-3">
                                 <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/16/anning-egg.jpg">
                             </div>
                             <div class="col-xl-9">
                                 <h2>
-                                   Senator Who Hit Egg Boy Should 'Feel Full Force of Law'
+                                    Senator Who Hit Egg Boy Should 'Feel Full Force of Law'
                                 </h2>
-                            </div>                       
-                    </div>
-                    <hr>
-                    <div class="row"> 
-                        <div class="col-xl-3">
-                            <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/thumbnail/public/2019/03/17/trump-saturday-night-live.jpg">
-
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-xl-3">
+                                <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/thumbnail/public/2019/03/18/mike-pence-republican-critics.jpg">
                             </div>
                             <div class="col-xl-9">
                                 <h2>
-                                  Trump Rails Against SNL Despite Airing Rerun
+                                  Mike Pence Slammed Over Trump Loyalty
                                 </h2>
-                            </div>   
+                            </div>
+                        </div>
+
                     </div>
                     <hr>
-                   
-                    
-                    <div class="row"> 
+                </section>
+                <footer>
+                    <div class="row">
                         <div class="col-xl-3">
-                            <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/thumbnail/public/2019/03/17/trump-saturday-night-live.jpg">
-
-                            </div>
-                            <div class="col-xl-9">
-                                <h2>
-                                  Trump Rails Against SNL Despite Airing Rerun
-                                </h2>
-                            </div>   
+                            <img src="assets/images/NewsweekLogo.png">
+                        </div>
+                        <div class="col-xl-2">
+                            © 2019 NEWSWEEK
+                        </div>
+                        <div class="col-xl-4 offset-xl-5"></div>
                     </div>
-                    <hr>
-                    <div class="row"> 
-                        <div class="col-xl-3">
-                            <img src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/thumbnail/public/2019/03/17/trump-saturday-night-live.jpg">
-
-                            </div>
-                            <div class="col-xl-9">
-                                <h2>
-                                  Trump Rails Against SNL Despite Airing Rerun
-                                </h2>
-                            </div>   
-                    </div>
-                </div>
-            </div>   
-             <hr>
-        </section>
-         <footer>
-                <div class="row">
-                    <div class="col-xl-3">
-                        <img src="assets/images/NewsweekLogo.png">
-                    </div>
-                    <div class="col-xl-2">
-                        © 2019 NEWSWEEK
-                    </div>
-                    <div class="col-xl-4 offset-xl-5"></div>
-                </div>
-        </footer>
+                </footer>
 
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
-        <script src="main.js"></script>
-    </body>
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+                <script src="main.js"></script>
+            </body>
 
-    </html>
+            </html>
