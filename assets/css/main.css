@@ -190,13 +190,13 @@ form i.fas {
 }
 
 .section-two {
-	padding: 15px;
+	padding: 46px;
 	margin-top: 20px;
 }
 
 .section-two-container img {
 	width: inherit;
-	height: 275px;
+	height: auto;
 }
 
 .section-two-container {
@@ -233,21 +233,10 @@ form i.fas {
 	position: relative;
 }
 
-.specialcon div  {
-	position: absolute;
-    background-color: #dcd5d5;
-    color: red;
-    font-weight: 700;
-    top:268px;
+.specialcon div, .specialcon2 div  {
+	display: none;
 }
 
-.specialcon2 div {
-	position: absolute;
-	background-color: red;
-	color: white;
-	font-weight: 700;
-    top:268px;
-}
 
 .specialcon h3, .specialcon3 h3 {
 	margin-top: 15px;
@@ -261,7 +250,7 @@ form i.fas {
 
 /*Section-three*/
 .section-three {
-	padding: 15px;
+	padding: 46px;
 	margin-top: 20px;
 }
 
@@ -365,7 +354,7 @@ hr {
 /*Footer*/
 
 footer {
-	padding: 15px;
+	padding: 46px;
 	margin-top: 20px;
 }
 
@@ -406,7 +395,7 @@ box-sizing:border-box;
 
 @media only screen and (max-width: 990px) {
 	.section-two-container img {
-		height: 209px;
+		height: auto;
 	}
 
 	.specialcon2 div, .specialcon div {
