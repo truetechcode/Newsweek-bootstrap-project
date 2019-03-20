@@ -162,6 +162,7 @@ form i.fas {
 .section-one .opinion .caption {
     line-height: 24px;
     font-weight: bold;
+    width: 78%;
 }
 
 .section-one .opinion .caption span:first-child {
@@ -193,7 +194,6 @@ form i.fas {
 }
 
 .section-two {
-    padding: 46px;
     margin-top: 20px;
 }
 
@@ -257,7 +257,6 @@ form i.fas {
 
 /*Section-three*/
 .section-three {
-    padding: 46px;
     margin-top: 20px;
 }
 
@@ -333,7 +332,6 @@ hr {
     font-size: medium;
     font-weight: 700;
     padding-left: 10px;
-    padding-top: 20px;
 }
 
 .subscribe ul {
@@ -372,7 +370,6 @@ hr {
 /*Footer*/
 
 footer {
-    padding: 46px;
     margin-top: 20px;
 }
 
@@ -383,6 +380,7 @@ footer img {
 
 .footer-social {
     font-size: x-large;
+    text-align: right;
 }
 
 .linkbox {
@@ -603,6 +601,9 @@ footer img {
         width: 100%;
     }
 
+    .footer-social {
+    	text-align: initial;
+    }
 }
 
 @media only screen and (max-width: 990px) {
