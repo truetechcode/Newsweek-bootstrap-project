@@ -267,6 +267,10 @@ form i.fas {
 	width: 100%;
 }
 
+.specialcon8 {
+	margin: 20px 0px;
+}
+
 
 .specialcon3 div, .specialcon7 div{
 	position: absolute;
@@ -304,7 +308,7 @@ hr {
 
 .specialcon4 img {
 	width: inherit;
-	height: 90px;
+	height: auto;
 }
 
 .specialcon4 h2 {
@@ -316,6 +320,7 @@ hr {
 	font-size: medium;
 	font-weight: 700;
 	padding-left: 10px;
+	padding-top: 20px;
 }
 
 .subscribe ul {
@@ -332,7 +337,7 @@ hr {
 }
 
 .specialcon5 img {
-	height: 68px;
+	height: auto;
 }
 
 .subscribe-box button {
